@@ -31,4 +31,10 @@ print(li)# [100]
 
 del li # deletes whole object from the memory.
 #print(li)#Error
+S="10 20 30 30 30  30  40  50 60"
+b=S.split()
+print("The array are: ",b,end=" ")
 
+g=[10,20,20,30,20,40,50]
+res=g.count(20)
+print("the count is",res)
